@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		323DAE2021B3FD3000514B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAE1F21B3FD3000514B43 /* main.m */; };
+		323DAE2821B3FF0200514B43 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAE2721B3FF0200514B43 /* Node.m */; };
+		323DAE2B21B3FF2500514B43 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 323DAE2A21B3FF2500514B43 /* LinkedList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		323DAE1C21B3FD3000514B43 /* LinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		323DAE1F21B3FD3000514B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		323DAE2621B3FEF300514B43 /* NSObject+Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Node.h"; sourceTree = "<group>"; };
+		323DAE2721B3FF0200514B43 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		323DAE2921B3FF1500514B43 /* NSObject+LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LinkedList.h"; sourceTree = "<group>"; };
+		323DAE2A21B3FF2500514B43 /* LinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				323DAE1F21B3FD3000514B43 /* main.m */,
+				323DAE2621B3FEF300514B43 /* NSObject+Node.h */,
+				323DAE2721B3FF0200514B43 /* Node.m */,
+				323DAE2921B3FF1500514B43 /* NSObject+LinkedList.h */,
+				323DAE2A21B3FF2500514B43 /* LinkedList.m */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323DAE2B21B3FF2500514B43 /* LinkedList.m in Sources */,
 				323DAE2021B3FD3000514B43 /* main.m in Sources */,
+				323DAE2821B3FF0200514B43 /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
